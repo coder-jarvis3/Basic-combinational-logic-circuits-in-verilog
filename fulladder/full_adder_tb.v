@@ -23,9 +23,4 @@ module full_adder_tb;
         #10;
         $finish;
     end
-
-    always @(a or b or sum or carry) begin
-        $display("input a = %b b = %b output sum = %b carry = %b", a, b, sum, carry);
-    end
-
 endmodule
